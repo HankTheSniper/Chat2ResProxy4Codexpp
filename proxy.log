@@ -1,0 +1,14 @@
+INFO:     Started server process [20136]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8123 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50246 - "GET /health HTTP/1.1" 200 OK
+[REQ] model=gpt-5-codex stream=True tools=[('function', 'shell_command'), ('function', 'list_mcp_resources'), ('function', 'list_mcp_resource_templates'), ('function', 'read_mcp_resource'), ('function', 'update_plan'), ('function', 'request_user_input'), ('function', 'view_image'), ('namespace', 'multi_agent_v1'), ('namespace', 'mcp__node_repl'), ('function', 'get_goal'), ('function', 'create_goal'), ('function', 'update_goal'), ('web_search', None)]
+INFO:     127.0.0.1:50249 - "POST /v1/responses HTTP/1.1" 200 OK
+[REQ] model=gpt-5-codex stream=True tools=[('function', 'shell_command'), ('function', 'list_mcp_resources'), ('function', 'list_mcp_resource_templates'), ('function', 'read_mcp_resource'), ('function', 'update_plan'), ('function', 'request_user_input'), ('function', 'view_image'), ('namespace', 'multi_agent_v1'), ('namespace', 'mcp__node_repl'), ('function', 'get_goal'), ('function', 'create_goal'), ('function', 'update_goal'), ('web_search', None)]
+INFO:     127.0.0.1:50251 - "POST /v1/responses HTTP/1.1" 200 OK
+[REQ] model=gpt-5.6-sol stream=True tools=[]
+INFO:     127.0.0.1:50359 - "POST /v1/responses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50387 - "GET /v1/models HTTP/1.1" 200 OK
+[REQ] model=gpt-5.6-sol stream=True tools=[]
+INFO:     127.0.0.1:50463 - "POST /v1/responses HTTP/1.1" 200 OK

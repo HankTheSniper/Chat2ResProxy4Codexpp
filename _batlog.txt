@@ -1,0 +1,16 @@
+Killing any old proxy on port 8123 ...
+
+Upstream: https://api.iottepa.cn/v1
+Listen  : http://127.0.0.1:8123
+Health  : http://127.0.0.1:8123/health
+
+INFO:     Started server process [13804]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8123 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49780 - "GET /health HTTP/1.1" 200 OK
+
+============================================================
+ Proxy stopped or failed to start. Error above (if any).
+============================================================
+请按任意键继续. . . 
